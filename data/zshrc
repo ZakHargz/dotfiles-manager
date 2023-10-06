@@ -25,4 +25,4 @@ export GOROOT="$(brew --prefix go)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
 # Add dotfiles manager into the PATH
-path+=$HOME/.config/dotfiles/
+path+=$HOME/.config/dotfiles-manager/

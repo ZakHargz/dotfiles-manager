@@ -1,0 +1,20 @@
+{
+  "apps": {
+    "nvim": {
+      "paths": [
+        {
+          "internal": "data/nvim",
+          "external": "~/.config/nvim"
+        }
+      ]
+    },
+    "zsh": {
+      "paths": [
+        {
+          "internal": "data/zsh",
+          "external": "~/.config/zsh"
+        }
+      ]
+    }
+  }
+}

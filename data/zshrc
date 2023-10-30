@@ -26,3 +26,7 @@ export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
 # Add dotfiles manager into the PATH
 path+=$HOME/.config/dotfiles-manager/
+
+# Generic Keymaps
+bindkey "^[^[[C" forward-word
+bindkey "^[^[[D" backward-word

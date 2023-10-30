@@ -1,8 +1,8 @@
 return {
-  "bluz71/vim-nightfly-colors",
-  priority = 1000,
-  name = "nightfly",
+  "EdenEast/nightfox.nvim",
+  lazy = false,
+  priority = 999,
   config = function()
-    vim.cmd([[colorscheme nightfly]])
-  end,
+    vim.cmd('colorscheme nightfox')
+  end
 }
